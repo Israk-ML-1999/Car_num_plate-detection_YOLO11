@@ -1,0 +1,13 @@
+train: /content/gdrive/MyDrive/yolo11_num_plate detection/number_plat/data/train/images
+val: /content/gdrive/MyDrive/yolo11_num_plate detection/number_plat/data/valid/images
+test: /content/gdrive/MyDrive/yolo11_num_plate detection/number_plat/data/test/images
+
+nc: 1
+names: ["License_Plate"]
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: license-plate-recognition-rxg4e
+  version: 8
+  license: "CC BY 4.0"
+  url: "https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/8"
